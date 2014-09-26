@@ -1,4 +1,5 @@
-puts "=========\nWelcome to my Temperature app. \nI'm going to ask you some stuff and then show you how I feel about the temp\n========="
+puts "==================\nWelcome to my Temperature app. \n
+I'm going to ask you some stuff and then show you how I feel about the temp\n=================="
 
 puts "Please enter c if you'd like to see Celcius and f if you'd like to see farenheit"
 user_pref = gets.chomp
@@ -51,8 +52,8 @@ when 45..59
 when 60..74
 	puts "Mild"
 when 75..89
-	puts "Pleasant"
-when 90..100
+	puts "Pleasantly warm"
+when 90..99
 	puts "Hot"
 else
 	puts "Get the hell out of the sun"
